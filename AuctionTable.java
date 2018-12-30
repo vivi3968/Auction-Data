@@ -5,13 +5,6 @@ import java.util.Set;
 import big.data.DataSource;
 import big.data.DataSourceException;
 
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 6
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * @author vivi3
  * The database of open auctions will be stored in a hash table to provide constant 
