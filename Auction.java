@@ -1,12 +1,5 @@
 import java.io.Serializable;
 
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 6
- * CSE214, R11 (Reed Gantz)
- */ 
-
 /**
  * @author vivi3
  * Represents an active auction currently in the database
@@ -17,15 +10,10 @@ public class Auction implements Serializable {
 	private double currentBid;
 	private String auctionId, sellerName, buyerName, itemInfo;
 	
-	/**
-	 * Constructor for Auction
-	 */
 	public Auction() {
 	}
 	
 	/**
-	 * Constructor with parameters for auction
-	 * 
 	 * @param timeRemaining
 	 * @param auctionId
 	 * @param sellerName
@@ -43,8 +31,6 @@ public class Auction implements Serializable {
 	}
 	
 	/**
-	 * Constructor with parameters for auction
-	 * 
 	 * @param timeRemaining
 	 * @param currentBid
 	 * @param auctionId
@@ -63,7 +49,6 @@ public class Auction implements Serializable {
 	}
 
 	/**
-	 * Accessor method for time remaining
 	 * @return remaining time for the auction
 	 */
 	public int getTimeRemaining() {
@@ -71,7 +56,6 @@ public class Auction implements Serializable {
 	}
 
 	/**
-	 * Accessor method for current bid
 	 * @return what the current bid is
 	 */
 	public double getCurrentBid() {
@@ -79,7 +63,6 @@ public class Auction implements Serializable {
 	}
 
 	/**
-	 * Accesor method for auction 
 	 * @return auction id 
 	 */
 	public String getAuctionId() {
@@ -87,7 +70,6 @@ public class Auction implements Serializable {
 	}
 
 	/**
-	 * Accessor method for seller name
 	 * @return seller name
 	 */
 	public String getSellerName() {
@@ -95,7 +77,6 @@ public class Auction implements Serializable {
 	}
 
 	/**
-	 * Accessor method for buyer name
 	 * @return name of buyer
 	 */
 	public String getBuyerName() {
@@ -103,7 +84,6 @@ public class Auction implements Serializable {
 	}
 
 	/**
-	 * Info pertaining to memory, hard drive, and cpu
 	 * @return item info 
 	 */
 	public String getItemInfo() {
