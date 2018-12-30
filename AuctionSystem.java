@@ -7,13 +7,6 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Scanner;
 
-/* Vivian Lam
- * ID: 111549991
- * vivian.lam@stonybrook.edu
- * Homework 6
- * CSE214, R11 (Reed Gantz)
- */ 
-
 public class AuctionSystem implements Serializable {
 	
 	public static void main(String[] args) {
